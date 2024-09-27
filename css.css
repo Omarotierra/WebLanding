@@ -1,0 +1,115 @@
+*{
+ margin: 9;
+ padding: 1;
+ font-size: ; --asasa--
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #000000;
+  background-color: #adfdb1;
+}
+
+header {
+  background-color: #242121;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  max-width: 150px;
+  height:150px
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+video {
+  max-width: 400px;
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+.social-media {
+  margin-top: 40px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons .icon {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.social-icons .fb {
+  background-color: #3b5998;
+}
+
+.social-icons .ig {
+  background-color: #e4405f;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+}
+
+img {
+  max-width: 200px;
+  height: 200px;
+}
+
+h1 {
+  color: white;
+}
+ 
+.my-button {
+  margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0f7536;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.47);
+  }
+  
+  .my-button:hover {
+    background-color: #9418fa;
+  }
+  
+  .my-button:active {
+    background-color: #74006e;
+  }
+
+  .my-button:disabled {
+    background-color: #b7b7b7; 
+    cursor: not-allowed; 
+    color: #808080; 
+  }
+
+  .my-input{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.47);
+    margin-bottom: 10px; 
+  }
