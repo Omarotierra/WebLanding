@@ -144,7 +144,6 @@ nav ul li a:hover {
     background-color: #555;
 }
 
-/* Grid para la sección "Acerca" */
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 2fr; /* Una columna para la imagen y otra para el texto */
@@ -166,9 +165,8 @@ nav ul li a:hover {
   margin-bottom: 20px;
 }
 
-/* Párrafos adicionales que se colocan debajo de la imagen y el texto */
 .additional-text {
-  grid-column: 1 / -1; /* Hace que ocupe el ancho completo debajo de las dos columnas */
+  grid-column: 1 / -1;
   text-align: justify;
 }
 
