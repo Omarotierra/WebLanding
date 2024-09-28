@@ -146,9 +146,9 @@ nav ul li a:hover {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 2fr; /* Una columna para la imagen y otra para el texto */
-  grid-gap: 20px; /* Espacio entre las columnas */
-  align-items: center; /* Alineación vertical */
+  grid-template-columns: 1fr 2fr; 
+  grid-gap: 20px; 
+  align-items: center;
   margin-bottom: 20px;
 }
 
