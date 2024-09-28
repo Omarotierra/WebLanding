@@ -12,22 +12,52 @@
         <div>
             <h1>Centro Turístico de Relajación Oztotipac</h1>
         </div>
+        <nav>
+            <ul>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#acerca">Sobre Nosotros</a></li>
+                <li><a href="#contact-form">Contáctanos</a></li>
+                <li><a href="#social-media">Redes Sociales</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
+        <section id="video">
         <video controls>
             <source src="video.mp4" type="video/mp4">
         </video>
-        <div>
-            <img src="cafeteria.png">
+    </section>
+
+    <section id="acerca">
+        <div class="about-container">
+            <img src="cafeteria.png" alt="Cafetería" class="about-image">
+            <div class="about-text">
+                <p class="first-paragraph">
+                    Somos un proyecto del H. Ayuntamiento de Nogales, Veracruz, enfocado en la cultura de la relajación para el beneficio de la ciudadanía y el turismo. Nuestro objetivo principal es ofrecer un espacio donde los visitantes puedan desconectarse del estrés diario y reconectar con la naturaleza y consigo mismos.
+                </p>
+            </div>
+        </div>
+        
+        <div class="additional-text">
             <p>
-                Somos un proyecto del H. Ayuntamiento de Nogales,
-                Veracruz, enfocado en la cultura de la relajación
-                para el beneficio de la ciudadanía y el turismo.
+                En el Centro Turístico Oztotipac, hemos implementado una serie de servicios como temazcal tradicional, spa, masajes terapéuticos y áreas de meditación, todo en un entorno natural que favorece el bienestar y la tranquilidad. Nuestro equipo está altamente capacitado para proporcionar una experiencia única y personalizada a cada visitante.
+            </p>
+    
+            <p>
+                Además, nuestras instalaciones incluyen una cafetería con productos orgánicos locales, así como espacios dedicados a la cultura y al arte, donde promovemos la creatividad a través de exposiciones y talleres. Nos enorgullece colaborar con la comunidad local y apoyar el turismo sostenible.
+            </p>
+    
+            <p>
+                Nuestro compromiso es generar un impacto positivo en la vida de las personas que nos visitan y contribuir al desarrollo turístico de la región de Nogales. Invitamos a turistas y locales a disfrutar de este refugio de paz y armonía, diseñado para revitalizar el cuerpo y el espíritu.
             </p>
         </div>
+    </section>
+    
+    
+    
 
-       <section class="contact-form">
+       <section id="contact-form">
             <h2>Contáctanos</h2>
             <form action="process_form.php" method="post">
                 <label for="name">Nombre:</label>
@@ -43,7 +73,7 @@
             </form>
         </section>
 
-        <section class="social-media">
+        <section id="social-media">
             <h2>Síguenos en Redes Sociales</h2>
             <div class="social-icons">
                 <a href="https://www.facebook.com/profile.php?id=61553790185439" target="_blank" class="icon fb">Facebook</a>

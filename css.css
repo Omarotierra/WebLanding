@@ -113,3 +113,65 @@ h1 {
     box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.47);
     margin-bottom: 10px; 
   }
+
+  nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Grid para la sección "Acerca" */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Una columna para la imagen y otra para el texto */
+  grid-gap: 20px; /* Espacio entre las columnas */
+  align-items: center; /* Alineación vertical */
+  margin-bottom: 20px;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about-text {
+  text-align: justify;
+}
+
+.first-paragraph {
+  margin-bottom: 20px;
+}
+
+/* Párrafos adicionales que se colocan debajo de la imagen y el texto */
+.additional-text {
+  grid-column: 1 / -1; /* Hace que ocupe el ancho completo debajo de las dos columnas */
+  text-align: justify;
+}
+
+.additional-text p {
+  margin-bottom: 20px;
+}
